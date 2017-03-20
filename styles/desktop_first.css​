@@ -1,0 +1,59 @@
+body{
+	width: 90%;
+	margin: auto;
+}
+
+header{
+	margin: 2% 0;
+	padding-bottom: 2%;
+	display: inline;
+}
+
+header h1.page-title{	
+	float: left;
+	width: 50%;
+	margin: 2% 0;	
+}
+
+header nav.main-menu{	
+	float: right;
+	width: 40%;
+	list-style: none;	
+	margin: 2% 0;
+	text-align: right;
+}
+
+header nav.main-menu li{
+	display: inline-block;
+	padding-left: 2%;
+}
+
+header nav.main-menu li:not(:first-child){	
+	border-left: 1px solid black;
+}
+
+section.sub{	
+	float: left;
+}
+
+section.sub img{
+	width: 100%;
+}
+
+main{
+	display: inline-block;
+}
+
+.sub{
+	margin: 2%;
+}
+
+.sub-left{
+	width: 35%;	
+}
+
+.sub-center, .sub-right{
+	width: 25%;
+	/*margin: 2%;*/
+}
+
