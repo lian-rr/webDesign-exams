@@ -1,21 +1,13 @@
-html{
-	min-height: 100%;
-}
-
-body{
-	margin-bottom: 10%;
-}
-
 header{
 	margin: 2% 0;
 	padding-bottom: 2%;
 	display: inline;
 }
 
-header h1.page-title{	
+header h1.page-title{
 	float: left;
 	width: 50%;
-	margin: 2% 0;	
+	margin: 2% 0;
 }
 
 .main-menu{
@@ -39,10 +31,6 @@ nav.main-menu li:not(:first-child){
 	border-left: 1px solid black;
 }
 
-section.sub{	
-	float: left;
-}
-
 img{
 	width: 100%;
 }
@@ -51,30 +39,17 @@ main{
 	display: inline-block;
 }
 
-.sub{
+section.sub{
+	float: left;
 	margin: 2%;
 }
 
-.sub-left{
-	width: 35%;	
+section.sub-left{
+	width: 35%;
 }
 
-.sub-center, .sub-right{
+section.sub-center, .sub-right{
 	width: 25%;
-}
-
-footer{
-	text-align: center;
-	border-top: 2px solid black;
-	background: #fff;
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-}
-
-footer p{
-	font-size: small;
 }
 
 @media (max-width: 800px) {

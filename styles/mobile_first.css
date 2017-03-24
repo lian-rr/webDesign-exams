@@ -1,0 +1,92 @@
+body{
+    margin: 0 2% 15% 2%;
+}
+
+header h1.page-title{
+    text-align: center;
+}
+
+nav.main-menu ul{
+    padding-left: 0;
+    text-align: center;
+}
+
+nav.main-menu li{
+    display: inherit;
+    background: lightgrey;
+    padding: 1%;
+}
+
+nav.main-menu li.active{
+    background: #767777;
+}
+
+img{
+    width: 100%;
+}
+
+footer nav.main-menu{
+    display: none;
+}
+
+
+@media (min-width: 800px) {
+    body{
+        margin: 0 1% 15% 1%;
+    }
+
+    header{
+        margin: 2% 0;
+        padding-bottom: 2%;
+        display: inline;
+    }
+
+    header h1.page-title{
+        float: left;
+        width: 50%;
+        margin: 2% 0;
+        text-align: left;
+    }
+
+    header nav.main-menu{
+        float: right;
+        width: 40%;
+        margin: 2% 0;
+        text-align: right;
+    }
+
+    nav.main-menu li{
+        display: inline-block;
+        padding: 0 1%;
+        background: none;
+    }
+    nav.main-menu li.active{
+        background: none;
+    }
+
+    nav.main-menu li:not(:first-child){
+        border-left: 1px solid black;
+    }
+
+    footer nav.main-menu{
+        display: inherit;
+    }
+
+    main{
+        display: inline-block;
+    }
+
+    section.sub{
+        float: left;
+        margin: 2%;
+    }
+
+    section.sub-left{
+        width: 35%;
+    }
+
+    section.sub-center, section.sub-right{
+        width: 25%;
+    }
+}
+
