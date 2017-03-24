@@ -1,8 +1,3 @@
-body{
-	width: 90%;
-	margin: auto;
-}
-
 header{
 	margin: 2% 0;
 	padding-bottom: 2%;
@@ -36,7 +31,7 @@ section.sub{
 	float: left;
 }
 
-section.sub img{
+img{
 	width: 100%;
 }
 
