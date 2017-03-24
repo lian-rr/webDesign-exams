@@ -1,0 +1,13 @@
+@media print {
+    body{
+        width: 95%;
+        margin: 0 1%;
+    }
+    img, nav.main-menu{
+        display: none;
+    }
+
+    article.alert{
+        border: none;
+    }
+}
