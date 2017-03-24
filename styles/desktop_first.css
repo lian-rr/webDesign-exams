@@ -3,7 +3,7 @@ html{
 }
 
 body{
-	margin-bottom: 100px;
+	margin-bottom: 10%;
 }
 
 header{
@@ -49,7 +49,6 @@ img{
 
 main{
 	display: inline-block;
-	flex: 1;
 }
 
 .sub{
@@ -76,4 +75,47 @@ footer{
 
 footer p{
 	font-size: small;
+}
+
+@media (max-width: 800px) {
+	body{
+		width: 100%;
+	}
+
+	header h1.page-title{
+		width: 100%;
+		text-align: center;
+	}
+
+	header nav.main-menu{
+		width: 100%;
+		clear: both;
+		text-align: center;
+		margin: 0;
+	}
+
+	nav.main-menu ul{
+		padding-left: 0;
+	}
+
+	nav.main-menu li{
+		display: inherit;
+		background: lightgrey;
+		padding: 1%;
+	}
+	nav.main-menu li.active{
+		background: #767777;
+	}
+
+	nav.main-menu li:not(:first-child){
+		border-left: none;
+	}
+
+	.sub-left, .sub-center, .sub-right{
+		width: 100%;
+	}
+
+	footer nav.main-menu{
+		display: none;
+	}
 }
